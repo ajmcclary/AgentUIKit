@@ -49,9 +49,9 @@ Out of scope: views, view models, persistence, agent execution, and app navigati
 
 ```swift
 dependencies: [
-    // 0.1.0-beta.1 is a prerelease identifier — SwiftPM only resolves
+    // 0.1.0-beta.2 is a prerelease identifier — SwiftPM only resolves
     // prerelease tags when the lower bound itself names one.
-    .package(url: "https://github.com/ajmcclary/AgentUIKit.git", .upToNextMinor(from: "0.1.0-beta.1"))
+    .package(url: "https://github.com/ajmcclary/AgentUIKit.git", .upToNextMinor(from: "0.1.0-beta.2"))
 ]
 ```
 
